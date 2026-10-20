@@ -1,0 +1,75 @@
+
+body{
+    color: white;
+}
+
+
+
+.container-skills{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.img-mg{
+    margin-top: 20px;
+}
+.container-skills span{
+    color: rgb(161, 0, 0);
+}
+.design{
+    border: 1px solid wheat;
+    width: 600px;
+    height: 350px;
+    border-radius: 4px;
+    background-color: rgba(19, 16, 16, 0.875);
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.container-design-development{
+    display: flex;
+    justify-content: center;
+}
+.mg-desgin{
+    margin-top: 20px;
+}
+.design h2{
+    font-size: 30px;
+}
+.text-design{
+    margin-top: 20px;
+}
+.text-design p{
+    color: rgba(248, 249, 250, 0.558);
+}
+.design .img{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.design .img img{
+    width: 60px;
+}
+.img p{
+    display: flex;
+    justify-content: center;
+}
+
+.design .img ul{
+    list-style: none;
+}
+.border-color{
+    padding: 6px;
+    background-color: rgba(87, 87, 87, 0.125);
+    border: 1px solid rgba(250, 249, 248, 0.547);
+    border-radius: 5px;
+}
+.img p{
+    font-weight: 100;
+    font-size: 10px;
+}

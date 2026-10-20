@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+}
+.container p{
+    color: rgb(173, 156, 5);
+}
+.container .text{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+}
+.container .text span{
+    color: red;
+}
+.text-container{
+    display: grid;
+    gap: 10px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.text-color p{
+    color: rgb(147, 147, 147);
+    font-size: 18px;
+}
+.dress p{
+    color: rgb(147, 147, 147);
+    margin: 0;
+
+}
+.gmail h4{
+    display: flex;
+    justify-content: space-between;
+}
+.dress h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 30rem;
+    margin-top: 10px;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.containr-gmail{
+    margin-left: 4rem;
+}
+.gmail a{
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+}
+.container-flex{
+    display: flex;
+}
+.name-gmail{
+    display: flex;
+    gap: 10px;
+}
+.name-gmail{
+    color: aliceblue;
+}
+.name-gmail label{
+    display: block;
+}
+.name-gmail input{
+    width: 20rem;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.subject{
+    margin-top: 10px;
+}
+.subject input{
+    width: 41rem;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.message{
+    display: grid;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.containr-gmail{
+    display: block;
+}
+.subject{
+    color: aliceblue;
+}
+.subject label{
+    display: block;
+}
+.message label{
+    display: block;
+}
+.message textarea{
+    width: 41rem;
+    height: 8rem;
+    border-radius: 5px;
+}
+label{
+    font-size: 14px;
+    color: rgba(240, 248, 255, 0.545);
+}
+input{
+    color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.118);
+    border: 1px solid rgba(209, 207, 207, 0.273);
+}
+textarea{
+    background-color: rgba(240, 248, 255, 0.118);
+    border: 1px solid rgba(209, 207, 207, 0.273);
+}
+input:hover{
+    border: 1px solid red;
+    
+}
+
+textarea:hover{
+    border: 1px solid red;
+    color: white;
+}
+.container-submit button{
+    margin-top: 20px;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 207, 207);
+}
+.container-submit button:hover{
+    background-color: brown;
+    border: 1px solid rgb(129, 1, 1);
+    transform: scale(1.05);
+}
